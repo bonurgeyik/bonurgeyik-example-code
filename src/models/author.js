@@ -10,6 +10,9 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING
         }
     }, {
+        indexes: [
+            {fields:['name']}
+        ],
         timestamps: false,
         freezeTableName: true,
         tableName: 'authors',
