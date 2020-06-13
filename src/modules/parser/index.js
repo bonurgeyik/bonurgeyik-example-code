@@ -10,7 +10,7 @@ module.exports = {
 
 
 async function init() {
-    let files = await getFiles(path.resolve(__dirname, "../../../__assets"));
+    let files = await getFiles(path.resolve(__dirname, "../../../assets"));
     let q = async.queue(processFile, 20);
     q.drain = function () {
         console.log('Done.')
