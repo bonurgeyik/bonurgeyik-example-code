@@ -1,0 +1,31 @@
+{
+  "name": "bibliu",
+  "version": "1.0.0",
+  "description": "Bibliu Interview Project",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "graceful-fs": "^4.2.4",
+    "jest": "^26.0.1",
+    "lodash": "^4.17.15",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.12",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "sequelize-mock": "^0.10.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --collect-coverage"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1592079621729" clover="3.2.0">
+  <project timestamp="1592079621729" name="All files">
+    <metrics statements="113" coveredstatements="111" conditionals="15" coveredconditionals="13" methods="36" coveredmethods="35" elements="164" coveredelements="159" complexity="0" loc="113" ncloc="113" packages="6" files="14" classes="14"/>
+    <package name="src.config">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="config.js" path="/Users/onurgeyik/Desktop/bibliu/src/config/config.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.models">
+      <metrics statements="31" coveredstatements="31" conditionals="7" coveredconditionals="6" methods="8" coveredmethods="8"/>
+      <file name="author.js" path="/Users/onurgeyik/Desktop/bibliu/src/models/author.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+      <file name="book.js" path="/Users/onurgeyik/Desktop/bibliu/src/models/book.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+      </file>
+      <file name="bookAuthor.js" path="/Users/onurgeyik/Desktop/bibliu/src/models/bookAuthor.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/onurgeyik/Desktop/bibliu/src/models/index.js">
+        <metrics statements="18" coveredstatements="18" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="16" type="cond" truecount="3" falsecount="0"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.author">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="repository.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/author/repository.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+      <file name="service.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/author/service.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.book">
+      <metrics statements="19" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <file name="repository.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/book/repository.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+      <file name="service.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/book/service.js">
+        <metrics statements="16" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.parser">
+      <metrics statements="51" coveredstatements="51" conditionals="6" coveredconditionals="5" methods="21" coveredmethods="21"/>
+      <file name="folderParser.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/parser/folderParser.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+      </file>
+      <file name="transformer.js" path="/Users/onurgeyik/Desktop/bibliu/src/modules/parser/transformer.js">
+        <metrics statements="40" coveredstatements="40" conditionals="4" coveredconditionals="3" methods="18" coveredmethods="18"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="77" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.mocks">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="mock1.js" path="/Users/onurgeyik/Desktop/bibliu/tests/mocks/mock1.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="mock2.js" path="/Users/onurgeyik/Desktop/bibliu/tests/mocks/mock2.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="mockEbook.js" path="/Users/onurgeyik/Desktop/bibliu/tests/mocks/mockEbook.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
